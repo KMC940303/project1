@@ -1,0 +1,39 @@
+@charset "utf-8";
+@font-face{
+    font-family: NotoSansKR;
+    font-style: normal;
+    font-weight: 300;
+    src:url("../../../fonts/NotoSansKR-Light.eot");
+    src:local("Noto Sans KR"),
+        url("../../../fonts/NotoSansKR-Light.eot?#iefix") format("embedded-opentype"),
+        url("../../../fonts/NotoSansKR-Light.woff2") format("woff2"),
+        url("../../../fonts/NotoSansKR-Light.woff") format("woff"),
+        url("../../../fonts/NotoSansKR-Light.otf") format("opentype"),
+        url("../../../fonts/NotoSansKR-Light.svg#NotoSansKR") format("svg");
+}
+/* tag reset */
+body, ul{margin: 0;padding: 0;}
+ul{list-style: none;}
+a:link, a:visited, a:hover, a:active{color: inherit; text-decoration: none;}
+
+body{font-family: NotoSansKR; font-size: 16px; font-weight: 300; background: #ff0;}
+
+/* common class */
+.blind{width: 1px;height: 1px; overflow: hidden; position: absolute; border: none; clip: rect(1px 1px 1px 1px); clip-path: inset(50%);}
+
+#wrap{margin: 0 70px;}
+#header{position: fixed; top: 0; left: 0; background: #fff; width: 100%; padding: 0 70px; box-sizing: border-box; z-index: 100;}
+#header.active::before{content: ''; position: absolute; background: #fff; top: 70px; left: 0; width: 100%; height: 49px;}
+#header > div{max-width: 1763px; margin: 0 auto; height: 80px; border-bottom: 1px solid #999;}
+
+/* #gnb */
+#gnb{text-align: center;}
+#gnb>ul>li{display: inline-block; position: relative;}
+#gnb>ul>li+li{margin-left: 73px;}
+#gnb ul li a{display: block;}
+#gnb>ul>li>a{height: 78px; line-height: 78px;font-size: 17px; color: #333; border-bottom: 2px solid transparent;}
+#gnb>ul>li:hover>a,#gnb>ul>li>a:focus,#gnb>ul>li.on>a{color: #f15b47; border-bottom-color: #f15b47;}
+#gnb ul li ul{width: 250px; height: 49px; line-height: 49px; position: absolute; top: 69px; left: 0; text-align: left; padding-top: 1px;}
+#gnb ul li ul li{float: left; margin-right: 36px;}
+#gnb ul li ul li a{font-size: 14px; color: #888;}
+#gnb ul li ul li:hover a,#gnb ul li ul li a:focus{color: #333;}
