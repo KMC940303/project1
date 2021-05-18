@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+#content{}
+.list_wrap{width: 1280px; text-align: center; margin: 100px auto; height: 700px;}
+.list_wrap .tablist{width: 1280px; height: 105px;}
+.list_wrap .tablist .tab{padding: 0 25px 0; font-size: 22px; color: #73615b;}
+.list_wrap .tabpanel{width: 380px; height: 250px; box-sizing: border-box;}
