@@ -17,7 +17,37 @@
     <script src="../js/tab.js"></script>
     <script>
         $(document).ready(function () {
-            const swiper = new Swiper('#tabpanel11 .swiper-container', {
+            const swiper11 = new Swiper('#tabpanel11 .swiper-container', {
+                // Optional parameters
+                direction: 'vertical',
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+            const swiper12 = new Swiper('#tabpanel12 .swiper-container', {
+                // Optional parameters
+                direction: 'vertical',
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+            const swiper13 = new Swiper('#tabpanel13 .swiper-container', {
+                // Optional parameters
+                direction: 'vertical',
+
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+            });
+            const swiper14 = new Swiper('#tabpanel14 .swiper-container', {
                 // Optional parameters
                 direction: 'vertical',
 
@@ -259,24 +289,6 @@
                             <ul>
                                 <li>
                                     <a href="">
-                                        <div><img src="../images/09_notice/notice-1.jpg" alt=""></div>
-                                        <p>고구려대 운영 AI 양재 허브, 신용보증기금·우리은행과 AI 특화기업지원 3자 업무협약 체결</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <div><img src="../images/09_notice/notice-2.jpg" alt=""></div>
-                                        <p>Thank you~ 교수님, 감사합니다.</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
-                                        <div><img src="../images/09_notice/notice-3.jpg" alt=""></div>
-                                        <p>유승민 IOC 위원, 고구려대에 마스크 기부</p>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="">
                                         <div><img src="../images/09_notice/notice-4.jpg" alt=""></div>
                                         <p>고구려대 봉사단, ‘애착인형 나눔’ 프로젝트 진행</p>
                                     </a>
@@ -291,6 +303,24 @@
                                     <a href="">
                                         <div><img src="../images/09_notice/notice-6.jpg" alt=""></div>
                                         <p>고구려대, KMU 인공지능센터 (KMU AI Center) 설립</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div><img src="../images/09_notice/notice-1.jpg" alt=""></div>
+                                        <p>고구려대 운영 AI 양재 허브, 신용보증기금·우리은행과 AI 특화기업지원 3자 업무협약 체결</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div><img src="../images/09_notice/notice-2.jpg" alt=""></div>
+                                        <p>Thank you~ 교수님, 감사합니다.</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <div><img src="../images/09_notice/notice-3.jpg" alt=""></div>
+                                        <p>유승민 IOC 위원, 고구려대에 마스크 기부</p>
                                     </a>
                                 </li>
                             </ul>
@@ -657,13 +687,94 @@
             </div>
         </article>
 
-        <article id="slide">
-            <h2>고구려대 교육 프로그램</h2>
-            <strong>고구려가 하면 다릅니다.</strong>
-            <p><a href="">팀팀 클래스</a></p>
-            <p><a href="">알파프로젝트</a></p>
-            <p><a href="">HOT TEAM CLASS</a></p>
-            <p><a href="">유레카 프로젝트</a></p>
+        <article class="slide_wrap">
+            <h4>고구려대 교육 프로그램</h4>
+            <ul role="tablist2" aria-labelledby="edu" class="tablist2">
+                <li role="tab" id="tab15" class="tab2" aria-controls="tabpanel15">팀팀 클래스</li>
+                <li role="tab" id="tab16" class="tab2" aria-controls="tabpanel16">알파프로젝트</li>
+                <li role="tab" id="tab17" class="tab2" aria-controls="tabpanel17">HOT TEAM CLASS</li>
+                <li role="tab" id="tab18" class="tab2" aria-controls="tabpanel18">유레카 프로젝트</li>
+            </ul>
+            <div role="tabpanel" aria-labelledby="tab15" id="tabpanel15" class="tabpanel">
+                <div role="tabpanel" aria-labelledby="tab15" id="tabpanel15" class="tabpanel">
+                    <div class="swiper-container">
+                        <!-- 슬라이더 그룹 -->
+                        <div class="swiper-wrapper">
+                            <!-- 상세 슬라이더 내용 -->
+                            <div class="swiper-slide">
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            <div><img src="../images/09_notice/program-1.jpg" alt=""></div>
+                                            <p></p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" aria-labelledby="tab16" id="tabpanel16" class="tabpanel">
+                <div role="tabpanel" aria-labelledby="tab16" id="tabpanel16" class="tabpanel">
+                    <div class="swiper-container">
+                        <!-- 슬라이더 그룹 -->
+                        <div class="swiper-wrapper">
+                            <!-- 상세 슬라이더 내용 -->
+                            <div class="swiper-slide">
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            <div><img src="../images/09_notice/program-1.jpg" alt=""></div>
+                                            <p></p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" aria-labelledby="tab17" id="tabpanel17" class="tabpanel">
+                <div role="tabpanel" aria-labelledby="tab17" id="tabpanel17" class="tabpanel">
+                    <div class="swiper-container">
+                        <!-- 슬라이더 그룹 -->
+                        <div class="swiper-wrapper">
+                            <!-- 상세 슬라이더 내용 -->
+                            <div class="swiper-slide">
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            <div><img src="../images/09_notice/program-1.jpg" alt=""></div>
+                                            <p></p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div role="tabpanel" aria-labelledby="tab18" id="tabpanel18" class="tabpanel">
+                <div role="tabpanel" aria-labelledby="tab18" id="tabpanel18" class="tabpanel">
+                    <div class="swiper-container">
+                        <!-- 슬라이더 그룹 -->
+                        <div class="swiper-wrapper">
+                            <!-- 상세 슬라이더 내용 -->
+                            <div class="swiper-slide">
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            <div><img src="../images/09_notice/program-1.jpg" alt=""></div>
+                                            <p></p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </article>
 
         <article id="event">
