@@ -1,4 +1,11 @@
 @charset "utf-8";
+/* 공통 클래스 */
+.white{color: #fff;}
+.skyblue{color: #a7c7e7;}
+.area{width: 1180px;margin: 0 auto;}
+.s_title{font-size: 19px;}
+.place{font-size: 17px;}
+.date{font-size: 17px;}
 
 #content{}
 .list_wrap{width: 1280px; margin: 100px auto; position: relative; overflow: hidden;}
@@ -17,18 +24,8 @@
 .list_wrap .swiper-slide ul li img{width: 377px; height: 251px;}
 .list_wrap .controller{position: absolute; top: -100px; right: 0;width: 269px; height: 51px; z-index:200;}
 .list_wrap .swiper-button-prev,
-.list_wrap .swiper-button-next, .list_wrap .btn_more{
-  top:0%;
-  width: 48px;
-  height:51px;
-  margin-top:0;
-  z-index: 10;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #000;
-}
+.list_wrap .swiper-button-next, .list_wrap .btn_more{top:0%;width: 48px;height:51px; margin-top:0;z-index: 10;
+cursor: pointer;display: flex;align-items: center;justify-content: center;border: 1px solid #000;}
 .list_wrap .swiper-button-prev::after, .list_wrap .swiper-button-next::after{display: none;}
 .list_wrap .swiper-button-prev{left: 0;}
 .list_wrap .swiper-button-prev::before, .list_wrap .swiper-button-next::before{content: ""; display: block; border-left: 6px solid transparent; border-right:6px solid transparent;}
@@ -38,6 +35,39 @@
 .list_wrap .btn_more{position: absolute; right: 0; width: 162px;}
 
 
-.slide_wrap{width: 1920px; height: 1106px; margin: 100px auto; text-align: center; display: none;}
-.slide_wrap .tablist2{height: 20px; margin-bottom: 70px;}
-.slide_wrap .tab2{float: left; width: 100px; height: 20px; box-sizing: border-box;}
+.slide_wrap{height: 1106px; margin: 100px auto; background: #bd4848; overflow: hidden; position: relative;}
+.slide_wrap .white{text-align: center;}
+.slide_wrap h3{padding: 54px 0 61px; font-size: 80px;}
+.slide_wrap strong{display: block; font-size: 47px; margin-bottom: 110px;}
+.slide_wrap .tablist{height: 20px; margin-bottom: 70px; display: flex; justify-content: center;}
+.slide_wrap .tab{height: 20px; margin: 0 16px; font-size: 20px; color: #fff; cursor: pointer;}
+.slide_wrap .tab.active{color:#a7c7e7; text-decoration: underline;}
+
+.slide_wrap .tabpanel{display: none;}
+.slide_wrap .tabpanel.active{display: block;}
+.slide_wrap .swiper-container{overflow: visible;}
+.slide_wrap .swiper-container::before, .slide_wrap .swiper-container::after{content: ""; position: absolute; top:0; width: 690px; height: 450px; background:#bd4848; z-index: 100;}
+.slide_wrap .swiper-container::before{right: 100%;}
+.slide_wrap .swiper-container::after{left:100%;}
+.slide_wrap .swiper-slide a{display: block; display: flex;}
+.slide_wrap .swiper-slide .txt_wrap{width: 50%; background: #fff; padding-left: 80px; box-sizing: border-box; padding-top: 52px;}
+.slide_wrap .swiper-slide .txt_wrap h4{color: #a7c7e7; font-size: 20px;}
+.slide_wrap .swiper-slide .txt_wrap .number{padding-top: 6px; padding-left: 295px; font-size: 122px; color: #a7c7e7;}
+.slide_wrap .swiper-slide .txt_wrap h5{padding-top: 95px; font-size: 30px; color: #000;}
+.slide_wrap .swiper-slide .txt_wrap .txt{color: #000; padding-top: 36px; line-height: 1.5;}
+
+.slide_wrap .controller{position: absolute; z-index: 200; top: 0; left: 0; width: 100%;}
+.slide_wrap .swiper-pagination-current{font-weight: 700; color: #a7c7e7;}
+.slide_wrap .swiper-pagination-fraction{top: 90px; font-size: 20px;bottom: auto;left: 680px; width: 150px; text-align:left;}
+.slide_wrap .swiper-button-prev, .slide_wrap .swiper-button-next {top: 172px; width: 106px;height: 106px;margin-top: 0; background: no-repeat center; background-size: contain;}
+.slide_wrap .swiper-button-prev{left: -138px; background-image:url("../images/09_notice/arrow-prev.png");}
+.slide_wrap .swiper-button-next{right: -138px; background-image:url("../images/09_notice/arrow-next.png");}
+.slide_wrap .swiper-button-prev::after, .slide_wrap .swiper-button-next::after{display: none;}
+
+.event_wrap{width: 1280px; height: 1106px; margin: 0 auto;}
+.event_wrap h4{font-size: 80px; background: yellow; text-align: center; margin-bottom: 125px;}
+.event_wrap .event_list .event_box1{width: 640px; background: red; position: relative;}
+.event_wrap .event_list .event_box1 .txt_box1{position: absolute; left: 350px; text-overflow: ellipsis;}
+.event_wrap .event_list .event_box2{width: 640px; background: green;}
+
+

@@ -7,7 +7,7 @@ a:link, a:visited, a:hover, a:active{text-decoration: none;color: inherit;}
 img{border: none;vertical-align: top;}
 header, nav, section, footer{display: block;}
 
-body{font-family: SCoreDream;}
+body{font-family: SCoreDream,"맑은 고딕", "Malgun Gothic", "나눔고딕", NanumGothic, sans-serif; line-height: 1; font-size: 16px; font-weight: 300;}
 /* 공통 */
 .blind{width: 1px;height: 1px; overflow: hidden; position: absolute; border: none; clip: rect(1px 1px 1px 1px); clip-path: inset(50%);}
 .d_n{display: none;}
