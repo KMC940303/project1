@@ -24,8 +24,7 @@
 .list_wrap .swiper-slide ul li img{width: 377px; height: 251px;}
 .list_wrap .controller{position: absolute; top: -100px; right: 0;width: 269px; height: 51px; z-index:200;}
 .list_wrap .swiper-button-prev,
-.list_wrap .swiper-button-next, .list_wrap .btn_more{top:0%;width: 48px;height:51px; margin-top:0;z-index: 10;
-cursor: pointer;display: flex;align-items: center;justify-content: center;border: 1px solid #000;}
+.list_wrap .swiper-button-next, .list_wrap .btn_more{top:0%;width: 48px;height:51px; margin-top:0;z-index: 10;cursor: pointer;display: flex;align-items: center;justify-content: center;border: 1px solid #000;}
 .list_wrap .swiper-button-prev::after, .list_wrap .swiper-button-next::after{display: none;}
 .list_wrap .swiper-button-prev{left: 0;}
 .list_wrap .swiper-button-prev::before, .list_wrap .swiper-button-next::before{content: ""; display: block; border-left: 6px solid transparent; border-right:6px solid transparent;}
@@ -74,4 +73,16 @@ cursor: pointer;display: flex;align-items: center;justify-content: center;border
 .event_list .txt_box h5{padding-bottom: 15px;}
 .event_list .txt_box p{padding: 0 0 15px;}
 
+.matri_area{width: 100%; height: 1384px; background:url("../images/08_guide/main_back.jpg")no-repeat; background-size: cover; position: relative;}
+.matri_area .matri_wrap{width: 1200px; height: 300px; position: absolute; top: 200px; margin:0 auto;}
+.matri_area .matri_wrap h3{font-size: 60px; margin-bottom: 30px; color: #fff;}
+.matri_area .matri_wrap .matri_list{border-top:4px solid #fff; border-bottom: 4px solid #fff; display: flex; padding: 40px 0 40px;}
+.matri_area .matri_wrap .matri_list li{width: 170px; height: 25px; text-align: center; font-size: 25px; color: #fff;}
 
+.icon_container{width: 100%; height: 630px; background: #a7c7e7;}
+.icon_container .icon_inner{width: 80%; height: 345px; margin: 0 auto; padding-top: 135px; background: green;}
+.icon_container .icon_inner .icon_list{display: flex;}
+.icon_container .icon_inner .icon_list li{width:25%; height: 345px; background: #fff; margin-right: 100px;}
+.icon_container .icon_inner .icon_list li:last-child{margin-right: 0;}
+.icon_container .icon_inner .icon_list li a{display:inline-block; background: yellow; padding: 35px; font-size: 30px;}
+.icon_container .icon_inner .icon_list li a:nth-child(2){padding: 100px;}
