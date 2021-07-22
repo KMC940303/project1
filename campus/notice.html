@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>고구려대학교 공지사항</title>
+    <title>공지사항 : 대학생활</title>
     <link rel="stylesheet" href="../css/common.css">
-    <link rel="stylesheet" href="../css/s_core_all.css">
     <link rel="stylesheet" href="../css/sub_common.css">
     <link rel="stylesheet" href="../css/swiper-bundle.css">
     <link rel="stylesheet" href="../css/sub_mc.css">
@@ -15,73 +14,7 @@
     <script src="../js/common.js"></script>
     <script src="../js/swiper-bundle.min.js"></script>
     <script src="../js/tab.js"></script>
-    <script>
-        $(document).ready(function () {
-            const swiper11 = new Swiper('#tabpanel11 .swiper-container', {
-                // Optional parameters
-                direction: 'vertical',
-
-                // Navigation arrows
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-                observer: true, 
-                observeParents: true //해당 요소와 부모 요소를 감지하여 DOM에 변화가 있으면 swiper를 초기화하여 문제를 해결
-            });
-            const swiper12 = new Swiper('#tabpanel12 .swiper-container', {
-                // Optional parameters
-                direction: 'vertical',
-
-                // Navigation arrows
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-                observer: true, 
-                observeParents: true
-            });
-            const swiper13 = new Swiper('#tabpanel13 .swiper-container', {
-                // Optional parameters
-                direction: 'vertical',
-
-                // Navigation arrows
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-                observer: true, 
-                observeParents: true
-            });
-            const swiper14 = new Swiper('#tabpanel14 .swiper-container', {
-                // Optional parameters
-                direction: 'vertical',
-
-                // Navigation arrows
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-                observer: true, 
-                observeParents: true
-            });
-            const swiper21 = new Swiper('#tabpanel21 .swiper-container', {
-
-                // If we need pagination
-                pagination: {
-                    el: '.swiper-pagination',
-                    type: 'fraction',
-                },
-                
-
-                // Navigation arrows
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-            });
-        });
-    </script>
+    <script src="../js/notice.js"></script>
 </head>
 
 <body>
@@ -90,59 +23,62 @@
     </div>
 
     <header id="header">
-        <h1 class="logo"><a href="">
-                <span class="blind">고구려대학교로고</span>
-            </a></h1>
+        <h1 class="logo">
+            <a href="../index.html">
+                <span class="blind">고구려대학교</span>
+            </a>
+        </h1>
         <div>
             <nav id="gnb">
                 <h2 class="blind">주메뉴</h2>
                 <ul>
-                    <li class=""><a href="">대학소개</a>
+                    <li><a href="">대학소개</a>
                         <ul>
-                            <li><a href="">인사말</a></li>
-                            <li><a href="">대학연혁</a></li>
-                            <li><a href="">대학비전</a></li>
-                            <li><a href="">학교상징</a></li>
-                            <li><a href="">연락처</a></li>
-                            <li><a href="">찾아오시는 길</a></li>
+                            <li><a href="../info/president.html">인사말</a></li>
+                            <li><a href="../info/history.html">대학연혁</a></li>
+                            <li><a href="../fix.html">대학비전</a></li>
+                            <li><a href="../fix.html">학교상징</a></li>
+                            <li><a href="../fix.html">연락처</a></li>
+                            <li><a href="../info/visit.html">찾아오시는 길</a></li>
                         </ul>
                     </li>
                     <li><a href="">학과소개</a>
                         <ul>
-                            <li><a href="">치위생과</a></li>
-                            <li><a href="">곤충산업복지과</a></li>
-                            <li><a href="">미용관광복지과</a></li>
-                            <li><a href="">토목조경과</a></li>
-                            <li><a href="">에너지복지과</a></li>
-                            <li><a href="">유아교육과</a></li>
+                            <li><a href="../major/dental.html">치위생과</a></li>
+                            <li><a href="../fix.html">곤충산업복지과</a></li>
+                            <li><a href="../fix.html">미용관광복지과</a></li>
+                            <li><a href="../fix.html">토목조경과</a></li>
+                            <li><a href="../fix.html">에너지복지과</a></li>
+                            <li><a href="../fix.html">유아교육과</a></li>
                         </ul>
                     </li>
-                    <li class=""><a href="">대학생활</a>
+                    <li><a href="">대학생활</a>
                         <ul>
-                            <li><a href="">학생지원</a></li>
-                            <li><a href="">학교문화</a></li>
-                            <li><a href="">알림/참여</a></li>
-                            <li><a href="" title="새 창 열림">도서관</a></li>
+                            <li><a href="../fix.html">학생지원</a></li>
+                            <li><a href="../campus/festival.html">학교문화</a></li>
+                            <li><a href="../campus/notice.html">알림/참여</a></li>
                         </ul>
                     </li>
                     <li><a href="">학사지원</a>
                         <ul>
-                            <li><a href="">학사일정</a></li>
-                            <li><a href="">장학제도</a></li>
-                            <li><a href="">학사 Q&amp;A</a></li>
+                            <li><a href="../fix.html">학사일정</a></li>
+                            <li><a href="../fix.html">장학제도</a></li>
+                            <li><a href="../fix.html">학사 Q&amp;A</a></li>
                         </ul>
                     </li>
-                    <li class=""><a href="" title="새 창 열림">입학안내</a>
+                    <li><a href="">입학안내</a>
                         <ul>
-                            <li><a href="">수시 및 정시</a></li>
-                            <li><a href="">입학 정보</a></li>
+                            <li><a href="../fix.html">수시 및 정시</a></li>
+                            <li><a href="../guide/matri.html" target="_blank" title="새 창 열림">입학 정보</a></li>
                         </ul>
                     </li>
                 </ul>
             </nav>
         </div>
         <div class="search">
-            <a href=""></a>
+            <a href="../fix.html">
+                <span class="blind">검색</span>
+            </a>
         </div>
     </header>
 
@@ -712,11 +648,11 @@
 
         <article class="slide_wrap">
             <div class="white">
-                <h3>고구려대 <span class="skyblue">교육 프로그램</span></h3>
+                <h3 id="edu">고구려대 <span class="skyblue">교육 프로그램</span></h3>
                 <strong>고구려가 하면 다릅니다.</strong>
             </div>
             <div class="area">
-                <ul role="tablist" aria-labelledby="tab21" class="tablist d_f">
+                <ul role="tablist" aria-labelledby="edu" class="tablist d_f">
                     <li role="tab" id="tab21" class="tab" aria-controls="tabpanel21">팀팀 클래스</li>
                     <li role="tab" id="tab22" class="tab" aria-controls="tabpanel22">알파프로젝트</li>
                     <li role="tab" id="tab23" class="tab" aria-controls="tabpanel23">HOT TEAM CLASS</li>
@@ -1025,8 +961,8 @@
 
         <article class="event_wrap">
             <h4>교내행사</h4>
-            <div class="event_list">
-                <div class="event_box">
+            <ul class="event_list area d_f">
+                <li>
                     <a href="">
                         <img src="../images/09_notice/event-1.jpg" alt="">
                         <div class="txt_box">
@@ -1035,6 +971,8 @@
                             <p class="date">일시 : 21.05.07</p>
                         </div>
                     </a>
+                </li>
+                <li>
                     <a href="">
                         <img src="../images/09_notice/event-2.jpg" alt="">
                         <div class="txt_box">
@@ -1043,6 +981,8 @@
                             <p class="date">일시 : 21.06.02</p>
                         </div>
                     </a>
+                </li>
+                <li>
                     <a href="">
                         <img src="../images/09_notice/event-3.jpg" alt="">
                         <div class="txt_box">
@@ -1051,6 +991,8 @@
                             <p class="date">일시 : 21.06.12</p>
                         </div>
                     </a>
+                </li>
+                <li>
                     <a href="">
                         <img src="../images/09_notice/event-4.jpg" alt="">
                         <div class="txt_box">
@@ -1059,62 +1001,62 @@
                             <p class="date">일시 : 21.06.17</p>
                         </div>
                     </a>
-                </div>
-            </div>
+                </li>
+            </ul>
         </article>
     </section>
 
-    <footer class="footer p_r">
-        <div class="wrap">
-            <div id="block1" class="f_l">
-                <a href=""><img src="images/01_common/kgr_logo_long_white.png" alt="고구려 대학교"></a>
+    <footer id="footer" class="p_r">
+        <div class="wrap d_f">
+            <div id="block1">
+                <a href="index.html"><img src="../images/01_common/kgr_logo_long_white.png" alt="고구려 대학교"></a>
             </div>
-            <div id="block2" class="f_block f_l">
+            <div id="block2" class="f_block">
                 <p>58280 전라남도 나주시<br>
                     다시면 백호로 125 고구려대학교<br>
                     TEL : 061-330-7400<br>
                     FAX : 061-335-7128<br>
                     MAIL : master@kgrc.ac.kr</p>
                 <div class="icons">
-                    <a href="" title="페이스북"><img src="images/01_common/icon_facebook.png" alt="페이스북"></a>
-                    <a href="" title="인스타그램"><img src="images/01_common/icon_instagram.png" alt="인스타그램"></a>
-                    <a href="" title="유튜브"><img src="images/01_common/icon_youtube.png" alt="유튜브"></a>
+                    <a href="http://www.facebook.com/" title="페이스북"><img src="../images/01_common/icon_facebook.png"
+                            alt="페이스북"></a>
+                    <a href="http://www.instagram.com/" title="인스타그램"><img src="../images/01_common/icon_instagram.png"
+                            alt="인스타그램"></a>
+                    <a href="http://www.youtube.com/" title="유튜브"><img src="../images/01_common/icon_youtube.png"
+                            alt="유튜브"></a>
                 </div>
                 <p>KOGURYEO COLLEGE. All rights reserved</p>
             </div>
-            <div id="block3" class="f_block f_l">
-                <div class="bar p_r">
-                    <label for="shortcut1"></label>
-                    <select id="shortcut1" name="shortcut1">
-                        <option value="">학과홈페이지 바로가기</option>
-                        <option value="">한약요양복지과</option>
-                        <option value="">보건의료행정과</option>
-                        <option value="">운동재활복지과</option>
-                        <option value="">뷰티미용과</option>
-                        <option value="">유아교육과</option>
-                        <option value="">커피초콜릿학부</option>
-                        <option value="">망고식스 디저트 카페과</option>
-                    </select>
-                    <div class="GO"><button type="submit">GO</button></div>
+            <div id="block3" class="f_block">
+                <div class="family d_f p_r">
+                    <a href="" class="btn_fopen p_r" role="button">학과홈페이지 바로가기</a>
+                    <ul>
+                        <li><a href="../major/dental.html">치위생과</a></li>
+                        <li><a href="../fix.html">곤충산업복지과</a></li>
+                        <li><a href="../fix.html">미용관광복지과</a></li>
+                        <li><a href="../fix.html">토목조경과</a></li>
+                        <li><a href="../fix.html">에너지복지과</a></li>
+                        <li><a href="../fix.html">유아교육과</a></li>
+                    </ul>
+                    <a href="" class="btn_go">GO</a>
                 </div>
-                <div class="bar p_r">
-                    <label for="shortcut2"></label>
-                    <select id="shortcut2" name="shortcut2">
-                        <option value="">부속기관 바로가기</option>
-                        <option value="">도서관</option>
-                        <option value="">정보전산원</option>
-                        <option value="">생활관</option>
-                        <option value="">어학원</option>
-                        <option value="">평생교육원</option>
-                    </select>
-                    <div class="GO p_a"><button type="submit">GO</button></div>
+                <div class="family d_f p_r">
+                    <a href="" class="btn_fopen p_r" role="button">부속기관 바로가기</a>
+                    <ul>
+                        <li><a href="../campus/library.html">도서관</a></li>
+                        <li><a href="../fix.html">정보전산원</a></li>
+                        <li><a href="../fix.html">생활관</a></li>
+                        <li><a href="../fix.html">어학원</a></li>
+                        <li><a href="../fix.html">평생교육원</a></li>
+                    </ul>
+                    <a href="" class="btn_go">GO</a>
                 </div>
                 <ul class="f_navitem1">
-                    <li><a href="">대학소개</a></li>
-                    <li><a href="">학과소개</a></li>
-                    <li><a href="">대학생활</a></li>
-                    <li><a href="">학사지원</a></li>
-                    <li><a href="">입학안내</a></li>
+                    <li><a href="../info/president.html">대학소개</a></li>
+                    <li><a href="../major/dental.html">학과소개</a></li>
+                    <li><a href="../campus/notice.html">대학생활</a></li>
+                    <li><a href="../fix.html">학사지원</a></li>
+                    <li><a href="../guide/matri.html">입학안내</a></li>
                 </ul>
                 <ul class="f_navitem2">
                     <li>이사회 회의록 공개</li>
